@@ -15,7 +15,7 @@ const Main = () => {
     
 
     useEffect(() => {
-        axios.get('http://localhost:8081/api/getBannerData').then((res) => {
+        axios.get('https://taskserverrepo.onrender.com/api/getBannerData').then((res) => {
             if(res.data){ 
                 const updatedData = {
                     description: res.data.description,

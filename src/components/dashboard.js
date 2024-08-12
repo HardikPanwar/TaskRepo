@@ -210,7 +210,7 @@ const Dashboard = () => {
             }else{
                 setVisibility('0');
             }
-            axios.post('http://localhost:8081/api/updateBannerData', {
+            axios.post('https://taskserverrepo.onrender.com/api/updateBannerData', {
                 description,
                 timer,
                 bannerLink,

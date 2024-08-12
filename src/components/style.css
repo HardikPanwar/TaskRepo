@@ -1,0 +1,138 @@
+.logo{
+    background: linear-gradient(to right, #e11d48, #f43f56); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    font-variant: small-caps;
+    font-weight: 600;
+    font-size: 30px !important;
+    font-style: italic;
+}
+.dashboard-link{
+    text-decoration: none;
+    font-weight: 600 !important;
+    color: #141518;
+}
+
+.banner{
+    background-color: #141518;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.banner h1{
+    color: #505050;
+}
+
+.time-box-wrapper {
+    /* background-color: #141518; */
+    background-color: rgb(177, 175, 175);
+    width: fit-content;
+    padding: 20px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.single-box {
+    text-align: center;
+    border-right: 1px solid #333333;
+    padding: 0 34px;
+}
+.single-box:last-child{
+    border: none;
+}
+
+.single-box h1 {
+    margin: 0px;
+    font-size: 56px;
+    font-weight: 300;
+    color: white;
+}
+.single-box p {
+    margin: 0px;
+    /* color: #8c8c8c; */
+    color: black;
+    white-space: nowrap;
+}
+
+.banner-update-form{
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.desc-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: rgb(177 175 175 / 24%);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.description-txt{
+    color:white
+}
+
+
+.banner-update-form {
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.css-zcbmsk-MuiButtonBase-root-MuiButton-root.MuiButton-root{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #e11d48;
+    text-transform: none;
+}
+.file-input{
+    border: 2px dashed rgb(21, 205, 205) !important;
+    border-radius: 5px;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.switch-box {
+    display: flex;
+    align-items: center;
+    padding:10px;
+    /* flex-direction: column; */
+}
+
+.inner-switch-box{
+    display: flex;
+    align-items: center;
+}
+.banner-visibility-text{
+    font-weight: 400;
+    padding:4px;
+}
+.on-off-txt{
+    font-weight: 400;
+}
+.form-label{
+    padding:4px;
+    font-weight: 400;
+}

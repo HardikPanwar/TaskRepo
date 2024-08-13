@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 
 function NavComponent() {
   return (
-    <Container>
-      <Navbar expand="lg">
+    // <Container>
+      <Navbar>
         <Container> 
           <Link to="/" className='logo'>TakeUForward</Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,7 +18,7 @@ function NavComponent() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Container>
+    // </Container>
   );
 }
 

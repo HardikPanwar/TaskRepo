@@ -227,18 +227,18 @@ const Dashboard = () => {
 
     return (
         <Paper className='banner-update-form' elevation={12}>
-            <Grid container spacing={2}>
-                <Grid item xs={6} {...getRootProps()}>
+            <Grid container spacing={2} justifyContent="center">
+                <Grid item xs={12} sm={12} md={6} lg={6} {...getRootProps()}>
                  <div className='file-input'>
                  <span>Choose file</span>
                  <TextField  {...getInputProps()} fullWidth id="outlined-basic" type='file' variant="outlined" onChange={setData} className='file-feild'/>
                  </div>
                     
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} sm={12} md={6} lg={6}>
                     <TextField id="outlined-basic" fullWidth type="datetime-local" label="" name='timer' variant="outlined" onChange={setData} />
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} sm={12} md={6} lg={6}>
                 <div className='switch-box'>  
                       <span className='banner-visibility-text'>Banner Visibility:</span> 
                       <div className='inner-switch-box'>
@@ -247,10 +247,10 @@ const Dashboard = () => {
                       </div>
                     </div>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} sm={12} md={6} lg={6}>
                     <TextField id="outlined-basic" fullWidth label="Banner Link" name='bannerLink' variant="outlined" onChange={setData} />
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={12} sm={12} md={6} lg={6}>
                     <Textarea aria-label="Banner Description" fullWidth placeholder="Banner Description" minRows={5} onChange={setData} name='description' />
                 </Grid>
             </Grid>
